@@ -13,7 +13,6 @@ def getTime():
     return timestamp_float
 
 def getNTPTimeValue(server="time.apple.com", port=123):
-    # add your code here 
     
     fs = "!1B" + 47 * "B"
 
@@ -32,7 +31,6 @@ def getNTPTimeValue(server="time.apple.com", port=123):
     
 
 def ntpPktToRTTandOffset(pkt: bytes, T1: float, T4: float):
-    # add your code here 24B1i1i16B
 
     ntp_epoch = 2208988800
     recieve_sec, recieve_frac, transmit_sec, transmit_frac = struct.unpack("!4I", pkt[32:48])
