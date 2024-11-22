@@ -1,11 +1,5 @@
 #!/usr/bin/env python
 # from collections import tuple
-'''
-CS352 Assignment 1: Network Time Protocol
-You can work with 1 other CS352 student
-
-DO NOT CHANGE ANY OF THE FUNCTION SIGNATURES BELOW
-'''
 
 import socket as socket
 import struct
